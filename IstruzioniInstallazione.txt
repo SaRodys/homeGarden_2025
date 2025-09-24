@@ -1,2 +1,6 @@
 Per installare il progetto homeGarden_2025:
 - aprire il terminale e scrivere cd homeGarden_2025 
+- scrivere npm install
+- scrivere npm install bootstrap axios
+- scrivere npm run serve
+- copiare l'indirizzo http://localhost:8080/ e incollarlo nella barra di ricerca del browser
