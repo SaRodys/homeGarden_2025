@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "product": "Monstera",
+    "type": "Pianta tropicale",
+    "description": "La Monstera è una pianta rampicante perenne e sempreverde, simile al Philodendron, che si arrampica su alberi e altri supporti grazie alle sue radici aeree. Le sue grandi foglie, profondamente divise e talvolta perforate, possono arrivare a un metro di diametro: questa caratteristica le permette di resistere al vento senza danneggiarsi.",
+    "humidity": 70,
+    "price": 70,
+    "watering": "10 giorni",
+    "sun": false,
+    "image": "https://images.pexels.com/photos/6597437/pexels-photo-6597437.jpeg?_gl=1*1qo22py*_ga*Njk1NTQwNjg4LjE3NTI4MjI0NzA.*_ga_8JE65Q40S6*czE3NTY3MTk2ODckbzQkZzEkdDE3NTY3MTk4NTgkajU0JGwwJGgw",
+    "additional_images": [
+      "https://images.pexels.com/photos/6597437/pexels-photo-6597437.jpeg?_gl=1*1qo22py*_ga*Njk1NTQwNjg4LjE3NTI4MjI0NzA.*_ga_8JE65Q40S6*czE3NTY3MTk2ODckbzQkZzEkdDE3NTY3MTk4NTgkajU0JGwwJGgw",
+      "https://images.pexels.com/photos/1407305/pexels-photo-1407305.jpeg?_gl=1*1ju4ldy*_ga*Njk1NTQwNjg4LjE3NTI4MjI0NzA.*_ga_8JE65Q40S6*czE3NTY3MTk2ODckbzQkZzEkdDE3NTY3MTk5MTAkajIkbDAkaDA.",
+      "https://images.pexels.com/photos/10922365/pexels-photo-10922365.jpeg?_gl=1*1fal65h*_ga*Njk1NTQwNjg4LjE3NTI4MjI0NzA.*_ga_8JE65Q40S6*czE3NTY3MTk2ODckbzQkZzEkdDE3NTY3MTk5ODMkajEwJGwwJGgw"
+    ]
+  },
+  {
+    "id": 2,
+    "product": "Sanseveria",
+    "type": "Pianta grassa",
+    "description": "La Sanseveria è una pianta originaria dell’Africa tropicale orientale, fino alla Nigeria e all’est della Repubblica Democratica del Congo. Le sue foglie erette, rigide e lanceolate possono raggiungere fino a 140 cm di lunghezza e 10 cm di larghezza, con un verde intenso decorato da striature più chiare e margini gialli o verdi.",
+    "humidity": 20,
+    "price": 15,
+    "watering": "3 settimane",
+    "sun": false,
+    "image": "https://images.pexels.com/photos/2123482/pexels-photo-2123482.jpeg",
+    "additional_images": [
+      "https://images.pexels.com/photos/2123482/pexels-photo-2123482.jpeg",
+      "https://images.pexels.com/photos/4503261/pexels-photo-4503261.jpeg",
+      "https://images.pexels.com/photos/6279948/pexels-photo-6279948.jpeg"
+    ]
+  },
+  {
+    "id": 3,
+    "product": "Edera",
+    "type": "Pianta rampicante",
+    "description": "L’Edera è una pianta rampicante versatile: le foglie dei rami non fioriferi, divise in 3-5 lobi, sono ideali per ricoprire muri e tronchi, mentre quelle dei rami fioriferi sono ovato-romboidali. I fiori, riuniti in ombrelle sferiche verdi, compaiono a circa 10 anni di età. I frutti sono bacche nere a maturazione, molto apprezzate dagli uccelli, che rimangono sulla pianta tutto l’inverno. Contengono però una saponina irritante per l’uomo.",
+    "humidity": 50,
+    "price": 7,
+    "watering": "4 giorni",
+    "sun": false,
+    "image": "https://images.pexels.com/photos/1207959/pexels-photo-1207959.jpeg",
+    "additional_images": [
+      "https://images.pexels.com/photos/1207959/pexels-photo-1207959.jpeg",
+      "https://images.pexels.com/photos/3826769/pexels-photo-3826769.jpeg",
+      "https://images.pexels.com/photos/3117228/pexels-photo-3117228.jpeg"
+    ]
+  },
+    {
+    "id": 4,
+    "product": "Venere acchiappamosche",
+    "type": "Pianta carnivora",
+    "description": "La Dionea, o Venere acchiappamosche (Dionaea muscipula), è una pianta carnivora unica nel suo genere, celebre per le sue foglie a forma di bocca dentata capaci di scattare rapidamente per intrappolare le prede. Charles Darwin la definì “una delle più meravigliose al mondo”. Il nome richiama Dione, madre di Afrodite, simboleggiando come l’aspetto attraente della pianta conduca alla cattura della vittima.",
+    "humidity": 80,
+    "price": 5,
+    "watering": "3 giorni",
+    "sun": true,
+    "image": "https://images.pexels.com/photos/11270339/pexels-photo-11270339.jpeg",
+    "additional_images": [
+      "https://images.pexels.com/photos/11270339/pexels-photo-11270339.jpeg",
+      "https://images.pexels.com/photos/29596320/pexels-photo-29596320.jpeg",
+      "https://images.pexels.com/photos/10894357/pexels-photo-10894357.jpeg"
+    ]
+  },
+  {
+    "id": 5,
+    "product": "Falangio",
+    "type": "Painta Sempreverde",
+    "description": "Il falangio, conosciuto anche come 'pianta ragno', è una delle piante d’appartamento più diffuse e resistenti. Ha lunghe foglie nastriformi, verdi con una caratteristica striatura bianca centrale (in molte varietà), e produce piccoli germogli pendenti che ricordano piccoli 'ragnetti'. È apprezzato per la sua capacità di purificare l’aria e la sua facilità di coltivazione.",
+    "humidity": 50,
+    "price": 10,
+    "watering": "1 settimana",
+    "sun": false,
+    "image": "https://images.pexels.com/photos/2273109/pexels-photo-2273109.jpeg",
+    "additional_images": [
+      "https://images.pexels.com/photos/2273109/pexels-photo-2273109.jpeg",
+      "https://images.pexels.com/photos/28396280/pexels-photo-28396280.jpeg",
+      "https://images.pexels.com/photos/5985111/pexels-photo-5985111.jpeg"
+    ]
+  },
+  {
+    "id": 6,
+    "product": "Zamioculcas zamiifolia",
+    "type": "Painta succulenta",
+    "description": "La Zamioculcas zamiifolia, comunemente chiamata 'pianta ZZ', è una specie sempreverde originaria dell’Africa orientale. Le sue foglie carnose e lucide, di un verde intenso, la rendono elegante e scultorea. Celebre per la sua resistenza e adattabilità, è capace di sopravvivere con pochissima acqua e luce, diventando simbolo di resilienza e prosperità silenziosa. Per queste qualità è considerata anche una pianta 'porta fortuna' in molte culture.",
+    "humidity": 40,
+    "price": 18,
+    "watering": "2 settimane",
+    "sun": false,
+    "image": "https://images.pexels.com/photos/1452750/pexels-photo-1452750.jpeg",
+    "additional_images": [
+      "https://images.pexels.com/photos/1452750/pexels-photo-1452750.jpeg",
+      "https://images.pexels.com/photos/9507055/pexels-photo-9507055.jpeg",
+      "https://images.pexels.com/photos/3094208/pexels-photo-3094208.jpeg"
+    ]
+  },
+  {
+    "id": 7,
+    "product": "Ficus lyrata",
+    "type": "Pianta tropicale",
+    "description": "Il Ficus lyrata, noto anche come 'fiddle-leaf fig', è una pianta ornamentale originaria delle foreste dell’Africa occidentale. Le sue grandi foglie lucide a forma di violino lo rendono particolarmente decorativo. È molto apprezzato come pianta d’appartamento per il suo portamento elegante e scultoreo.",
+    "humidity": 60,
+    "price": 45,
+    "watering": "1 settimana",
+    "sun": true,
+    "image": "https://images.pexels.com/photos/15191694/pexels-photo-15191694.jpeg",
+    "additional_images": [
+      "https://images.pexels.com/photos/7506115/pexels-photo-7506115.jpeg",
+      "https://images.pexels.com/photos/15191694/pexels-photo-15191694.jpeg",
+      "https://images.pexels.com/photos/33898283/pexels-photo-33898283.jpeg"
+    ]
+  },
+  {
+    "id": 8,
+    "product": "Aloe Vera",
+    "type": "Pianta succulenta",
+    "description": "L’Aloe vera è una pianta succulenta dalle foglie carnose e ricche di gel, noto per le sue proprietà lenitive, idratanti e cicatrizzanti. È resistente alla siccità e richiede poche cure, rendendola ideale sia per interni che per balconi sunggiati.",
+    "humidity": 25,
+    "price": 12,
+    "watering": "2 settimane",
+    "sun": true,
+    "image": "https://images.pexels.com/photos/1634502/pexels-photo-1634502.jpeg",
+    "additional_images": [
+      "https://images.pexels.com/photos/1634502/pexels-photo-1634502.jpeg",
+      "https://images.pexels.com/photos/8472137/pexels-photo-8472137.jpeg",
+      "https://images.pexels.com/photos/7318098/pexels-photo-7318098.jpeg"
+    ]
+  },
+  {
+    "id": 9,
+    "product": "Pothos",
+    "type": "Pianta rampicante",
+    "description": "Il Pothos è una pianta rampicante sempreverde originaria delle Isun Salomone. È una delle piante più resistenti e facili da coltivare, con foglie cuoriformi screziate di verde e giallo. È perfetto come pianta da interno e può crescere sia in vaso che in idrocoltura.",
+    "humidity": 50,
+    "price": 8,
+    "watering": "5 giorni",
+    "sun": false,
+    "image": "https://images.pexels.com/photos/6913641/pexels-photo-6913641.jpeg",
+    "additional_images": [
+      "https://images.pexels.com/photos/6913641/pexels-photo-6913641.jpeg",
+      "https://images.pexels.com/photos/5825369/pexels-photo-5825369.jpeg",
+      "https://images.pexels.com/photos/3401172/pexels-photo-3401172.jpeg"
+    ]
+  },
+  {
+    "id": 10,
+    "product": "Calathea",
+    "type": "Pianta tropicale",
+    "description": "La Calathea è una pianta tropicale ornamentale famosa per le sue foglie decorative con motivi geometrici e colori che vanno dal verde scuro al viola. Conosciuta come 'pianta della preghiera' per il movimento notturno delle sue foglie, è ideale per ambienti interni umidi e ombreggiati.",
+    "humidity": 70,
+    "price": 28,
+    "watering": "6 giorni",
+    "sun": false,
+    "image": "https://images.pexels.com/photos/33590018/pexels-photo-33590018.jpeg",
+    "additional_images": [
+      "https://images.pexels.com/photos/33590018/pexels-photo-33590018.jpeg",
+      "https://images.pexels.com/photos/9707463/pexels-photo-9707463.jpeg",
+      "https://images.pexels.com/photos/9166437/pexels-photo-9166437.jpeg"
+    ]
+  }
+]

@@ -1,0 +1,346 @@
+@import url(variabili.css);
+
+/*GENERALE-------------------------------------------*/
+* {
+  text-decoration: none;
+}
+
+body {
+  background-image: linear-gradient(rgba(3, 21, 2, 0.9), rgba(3, 21, 2, 0.5)),
+    url("https://images.pexels.com/photos/30260591/pexels-photo-30260591.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+
+h1, h2 {
+  font-family: var(--font-title);
+}
+
+h2 {
+  font-size: 120%;
+}
+
+h4 {
+  color: var(--text);
+  font-size: 1rem;
+  font-family: var(--font-text);
+}
+
+h5 {
+  font-family: var(--font-title);
+}
+
+p {
+  font-family: var(--font-text);
+}
+
+select {
+  background-color: rgba(96, 108, 56, 0.4);
+  border: none;
+}
+
+select:focus {
+  background-color: var(--quarto);
+  color: var(--text);
+}
+
+option {
+  background-color: var(--terzo);
+  color: var(--quinto);
+}
+
+.informazioni {
+  background-color: rgba(40,54,24,0.7);
+  border: solid 4px var(--quinto);
+}
+
+.decorazione {
+  text-decoration: none;
+}
+
+.router-link-exact-active.textNav {
+  background-color: var(--text);
+  color: var(--primo);
+  border-radius: 8px;
+}
+
+.textColor {
+    color: var(--text);
+}
+
+.contatore {
+  color: var(--quinto);
+  background-color: var(--secondo);
+}
+
+.contatore2 {
+  color: var(--primo);
+  background-color: var(--text);
+}
+
+.bottone {
+  background-color: var(--quinto);
+  border: 0;
+  padding: 1rem;
+  color: var(--text);
+  border: 2px solid var(--secondo);
+}
+
+.bottone:hover {
+  background-color: var(--secondo);
+  transition: background-color 0.3s ease, color 0.5s ease;
+  border: solid 2px var(--terzo);
+  color: var(--quinto);
+}
+
+.logo {
+  width: 3rem;
+}
+
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.custom-alert {
+  background: var(--text);
+  padding: 2rem;
+  border-radius: 10%;
+  text-align: center;
+  max-width: 20rem;
+  animation: fadeIn 0.3s ease;
+  color: var(--quinto);
+}
+
+.custom-alert h2 {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.custom-alert button {
+  border: none;
+  padding: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255,255,255,1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.textColor:hover {
+  background-color: var(--text);
+  color: var(--primo);
+  transition: background-color 0.2s ease;
+}
+
+.card-figure {
+  position: relative;
+  overflow: hidden;
+  display: block;
+  border-radius: 8px;
+}
+
+.card-figure > * {
+  grid-area: 1/1;
+  transition: 0.4s;
+  text-align: center;
+}
+
+.card-figure figcaption {
+  position: absolute;
+  inset: 0; /* copre tutta la card */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0.75rem;
+  background-color: rgba(0,0,0,0); /* trasparente di default */
+  color: white; /* colore testo */
+  opacity: 0; /* invisibile di default */
+  transform: translateY(20px); /* spostato verso il basso */
+  transition: background-color 0.4s ease, opacity 0.4s ease, transform 0.4s ease;
+  border-radius: 8px;
+}
+
+.card-figure figcaption h4,
+.card-figure figcaption h5 {
+  margin: 0;
+  color: white;
+}
+
+.card-figure figcaption h5 {
+  font-size: 200%;
+}
+.card-figure:hover figcaption {
+  --_i: 0%;
+  color: white;
+}
+
+.card-figure img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  transition: transform 0.4s ease, filter 0.4s ease;
+  display: block;
+  border-radius: 8px;
+}
+
+.card-figure:hover img {
+  transform: scale(1.2);
+}
+
+.card-img {
+  object-fit: cover;
+  width: 100%;
+  height: 20rem;
+}
+
+
+/*ADDPLANT------------------------------------------*/
+.bg-quarto{
+  background-color: var(--quarto);
+}
+
+#soleSwitch:checked {
+  background-color: var(--primo);
+  border-color: var(--text);
+}
+
+#soleSwitch {
+  border-color: var(--quinto);
+}
+
+.campoForm {
+  background-color: rgba(96, 108, 56, 0.4);
+  border: none;
+  color: var(--text);
+}
+
+.campoForm:focus {
+  background-color: var(--quarto);
+  color: var(--text);
+}
+
+.formImg {
+    border: solid 7px var(--primo);
+    border-radius: 5%;
+}
+
+/*GARDENVIEW------------------------------------------*/
+.rimuovi {
+  background-color: var(--secondo);
+  border: none;
+  color: var(--quinto);
+}
+
+.rimuovi2 {
+  background-color: var(--text);
+  border: none;
+  color: var(--quinto);
+}
+
+/*HOME------------------------------------------*/
+.testo {
+  color: var(--secondo);
+}
+
+.bottoneHome {
+    text-decoration: none;
+    font-family: var(--font-text);
+}
+
+.bottoneHome:hover {
+  background-color: var(--terzo);
+  color: var(--quinto);
+  border: 2px solid var(--text);
+  transition: background-color 0.2s ease;
+}
+
+.bottone2 {
+  border: solid 2px var(--text);
+}
+
+.divHome {
+  margin-top: 35%;
+}
+
+/*PLANTCATALOG------------------------------------------*/
+.notes {
+    background-color: var(--secondo);
+    color: var(--quinto);
+}
+
+.card:hover {
+  animation: pulse;
+  animation-duration: 1s;
+}
+
+.bg-green-gradient {
+  background: linear-gradient(to top, var(--quinto), transparent);
+}
+
+.elemento {
+  border: none;
+}
+
+.title-mobile {
+  position: absolute;
+  bottom: 0.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--terzo);
+  color: var(--primo);
+  font-size: 15rem;
+  font-weight: bold;
+}
+
+/*MEDIA, SUPPORT, KEYFRAME -----------------------*/
+@media (min-width: 701px) {
+  .divHome {
+    margin-top: 10%;
+    margin-bottom: 5%;
+  }
+  .title-mobile {
+    display: none;
+  }
+  .card-figure:hover img {
+    transform: scale(1.2);
+    filter: brightness(0.6); /* scurisce l'immagine */
+  }
+
+  .card-figure:hover figcaption {
+    background-color: rgba(0,0,0,0.5); /* overlay grigio semitrasparente */
+    opacity: 1; /* testo visibile */
+    transform: translateY(0); /* risale alla posizione normale */
+  }
+
+  .card-figure:hover figcaption h4,
+  .card-figure:hover figcaption h5 {
+    color: white;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@supports not (mask-clip: text) {
+  .card-figure figcaption {
+    -webkit-mask: none;
+    color: #fff;
+  }
+}
