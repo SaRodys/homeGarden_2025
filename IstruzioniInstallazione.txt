@@ -1,0 +1,2 @@
+Per installare il progetto homeGarden_2025:
+- aprire il terminale e scrivere cd homeGarden_2025 
