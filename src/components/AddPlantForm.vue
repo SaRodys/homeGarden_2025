@@ -1,7 +1,7 @@
 <template>
   <form class="row g-4" @submit.prevent="submitPlant">
     <div class="col-md-6">
-      <label class="form-label text-light" for="product">Nome DELLA PIANTA</label>
+      <label class="form-label text-light" for="product">Nome</label>
       <input
         v-model="plant.product"
         class="form-control campoForm"
